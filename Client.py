@@ -220,10 +220,6 @@ ui_thread.start()
 
 while True:
     # Main loop
-    """
-    if getch() == 27:  # Escape
-        terminate = True
-    """
     if terminate:
         end_prog(0)
     echo()
